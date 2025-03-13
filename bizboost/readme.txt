@@ -1,7 +1,7 @@
 === BizBoost ===
 Contributors: catchthemes
 Requires at least: 5.9
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -26,6 +26,10 @@ When changing the theme style, it is recommended to clear the template customiza
 6. Navigate to Appearance -> Editor in your admin panel and customize to taste.
 
 == Changelog ==
+
+= 2.0.2 (Released: March 14, 2025) =
+* Bug Fixed: Recent blog posts pattern
+* Updated: WordPress 6.7 ready
 
 = 2.0.1 (Released: September 30, 2024) =
 * Added: CSS to hide auto inserted mini cart and customer icon by WooCommerce in site header

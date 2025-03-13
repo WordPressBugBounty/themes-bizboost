@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BizBoost\n"
 "Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
-"POT-Creation-Date: 2024-09-30 13:59+0545\n"
+"POT-Creation-Date: 2025-03-13 23:06+0545\n"
 "PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Catch Themes <info@catchthemes.com>\n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
@@ -269,7 +269,11 @@ msgstr ""
 msgid "Contact Us"
 msgstr ""
 
-#: patterns/recent-blog-posts.php:14
+#: patterns/recent-blog-posts.php:20
+msgid "News"
+msgstr ""
+
+#: patterns/recent-blog-posts.php:24
 msgid "Recent Blog Posts"
 msgstr ""
 
