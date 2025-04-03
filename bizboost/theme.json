@@ -595,18 +595,8 @@
 	},
 	"templateParts": [
 		{
-			"name": "header",
-			"title": "Header",
-			"area": "header"
-		},
-		{
-			"name": "header-has-nav-centered",
-			"title": "Header (With Centered Nav - Default)",
-			"area": "header"
-		},
-		{
-			"name": "footer",
-			"title": "Footer",
+			"name": "footer-dark",
+			"title": "Footer (Dark)",
 			"area": "footer"
 		},
 		{
@@ -615,13 +605,28 @@
 			"area": "footer"
 		},
 		{
-			"name": "post-content",
-			"title": "Post Content",
-			"area": "uncategorized"
+			"name": "footer",
+			"title": "Footer",
+			"area": "footer"
+		},
+		{
+			"name": "header-has-nav-centered",
+			"title": "Header (With Centered Nav - Default)",
+			"area": "header"
+		},
+		{
+			"name": "header",
+			"title": "Header",
+			"area": "header"
 		},
 		{
 			"name": "page-content",
 			"title": "Page Content",
+			"area": "uncategorized"
+		},
+		{
+			"name": "post-content",
+			"title": "Post Content",
 			"area": "uncategorized"
 		},
 		{
@@ -632,6 +637,20 @@
 	],
 	"customTemplates": [
 		{
+			"name": "404",
+			"title": "404",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "archive-product",
+			"title": "Archive Product",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
 			"name": "blank",
 			"title": "Blank",
 			"postTypes": [
@@ -640,10 +659,31 @@
 			]
 		},
 		{
-			"name": "single-post-sidebar-on-right",
-			"title": "Single Post (Sidebar on Right)",
+			"name": "cart",
+			"title": "Cart",
 			"postTypes": [
-				"post"
+				"page"
+			]
+		},
+		{
+			"name": "checkout",
+			"title": "Checkout",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "front-page",
+			"title": "Front Page",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "order-confirmation",
+			"title": "Order Confirmation",
+			"postTypes": [
+				"page"
 			]
 		},
 		{
@@ -654,17 +694,17 @@
 			]
 		},
 		{
-			"name": "single-product",
-			"title": "Single Product",
+			"name": "single-post-sidebar-on-right",
+			"title": "Single Post (Sidebar on Right)",
 			"postTypes": [
-				"product"
+				"post"
 			]
 		},
 		{
-			"name": "archive-product",
-			"title": "Archive Product",
+			"name": "single-product",
+			"title": "Single Product",
 			"postTypes": [
-				"product"
+				"page"
 			]
 		}
 	]

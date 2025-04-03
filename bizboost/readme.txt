@@ -27,6 +27,9 @@ When changing the theme style, it is recommended to clear the template customiza
 
 == Changelog ==
 
+= 2.0.3 (Released: April 03, 2025) =
+* Updated: Theme json file
+
 = 2.0.2 (Released: March 14, 2025) =
 * Bug Fixed: Recent blog posts pattern
 * Updated: WordPress 6.7 ready
