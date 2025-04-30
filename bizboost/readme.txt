@@ -1,7 +1,7 @@
 === BizBoost ===
 Contributors: catchthemes
 Requires at least: 5.9
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -26,6 +26,16 @@ When changing the theme style, it is recommended to clear the template customiza
 6. Navigate to Appearance -> Editor in your admin panel and customize to taste.
 
 == Changelog ==
+
+= 2.0.4 (Released: April 30, 2025) =
+* Added: CSS styles for Product and block columns for better view
+* Added: Store notice in archive product
+* Updated: Border color name
+* Updated: Header patterns to hide Mini cart and customer icon that appears automatically by woocommerce
+* Updated: Minor css
+* Updated: WooCommerce filter for mobile devices
+* Updated: WooCommerce product template parts to product collection for more flexibility
+* Updated: WooCommerce view cart button
 
 = 2.0.3 (Released: April 03, 2025) =
 * Updated: Theme json file

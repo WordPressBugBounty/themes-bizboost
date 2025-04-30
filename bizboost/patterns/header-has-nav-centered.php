@@ -27,14 +27,14 @@
             </div>
             <!-- /wp:group -->
 
-            <!-- wp:navigation {"icon":"menu","layout":{"icon":"menu","type":"flex","setCascadingProperties":true,"justifyContent":"center"}} /-->
+            <!-- wp:navigation {"icon":"menu","metadata":{"ignoredHookedBlocks":["woocommerce/customer-account","woocommerce/mini-cart"]},"layout":{"icon":"menu","type":"flex","setCascadingProperties":true,"justifyContent":"center"}} /-->
 
             <!-- wp:group {"className":"wp-block-social-search-container","layout":{"type":"flex","allowOrientation":false,"justifyContent":"right"}} -->
             <div class="wp-block-group wp-block-social-search-container">
 
                 <!-- wp:social-links {"className":"is-style-logos-only"} -->
                 <ul class="wp-block-social-links is-style-logos-only"> <!-- wp:social-link {"url":"#","service":"facebook"} /-->
-                <!-- wp:social-link {"url":"#","service":"twitter"} /-->
+                    <!-- wp:social-link {"url":"#","service":"twitter"} /-->
                     <!-- wp:social-link {"url":"#","service":"linkedin"} /-->
                 </ul>
                 <!-- /wp:social-links -->

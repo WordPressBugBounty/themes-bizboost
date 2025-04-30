@@ -1,5 +1,8 @@
 /* --- Theme Style
 -------------------------------------------------------- */
+body {
+  overflow-x: hidden;
+}
 
 a,
 .content>.video-play:hover span,
@@ -93,8 +96,8 @@ body:not(.home) .wp-site-blocks main main,
   padding: 0;
 }
 
-body.open-search .wp-site-blocks > main,
-body.open-social .wp-site-blocks > main,
+body.open-search .wp-site-blocks>main,
+body.open-social .wp-site-blocks>main,
 body.single-product .wp-product-detail {
   position: relative;
 }
@@ -105,7 +108,7 @@ body.open-social {
   height: 100vh;
 }
 
-body .wp-site-blocks > main:before,
+body .wp-site-blocks>main:before,
 body.single-product .wp-product-detail:before {
   position: fixed;
   left: 0;
@@ -120,7 +123,7 @@ body.single-product .wp-product-detail:before {
   cursor: url(assets/images/cancel-close.png), auto;
 }
 
-body:not(.home) .wp-site-blocks > main:before {
+body:not(.home) .wp-site-blocks>main:before {
   margin-top: calc(var(--wp--custom--spacing--main-block-gap) * -1);
 }
 
@@ -134,8 +137,8 @@ body:not(.home) .wp-site-blocks > main:before {
   overflow: hidden;
 }
 
-body.open-search .wp-site-blocks > main:before,
-body.open-social .wp-site-blocks > main:before,
+body.open-search .wp-site-blocks>main:before,
+body.open-social .wp-site-blocks>main:before,
 body.open-search.single-product .wp-product-detail:before,
 body.open-social.single-product .wp-product-detail:before {
   opacity: 1;
@@ -243,7 +246,7 @@ ul li::marker {
   height: 42px;
   padding: 9px;
   box-sizing: border-box;
-  font-size: 24px;
+  font-size: 24px !important;
 }
 
 #to_top_scrollup:hover,
@@ -480,16 +483,16 @@ input[type="submit"]:focus,
   text-transform: capitalize;
 }
 
-.wp-block-query .wp-block-post-template .taxonomy-category.wp-block-post-terms > a,
-.wp-block-query .wp-block-post-template .taxonomy-post_tag.wp-block-post-terms > a {
+.wp-block-query .wp-block-post-template .taxonomy-category.wp-block-post-terms>a,
+.wp-block-query .wp-block-post-template .taxonomy-post_tag.wp-block-post-terms>a {
   color: var(--wp--preset--color--primary);
   margin-right: 5px;
   margin-bottom: 5px;
   display: inline-block;
 }
 
-.wp-block-query .wp-block-post-template .taxonomy-category.wp-block-post-terms > a:hover,
-.wp-block-query .wp-block-post-template .taxonomy-post_tag.wp-block-post-terms > a:hover {
+.wp-block-query .wp-block-post-template .taxonomy-category.wp-block-post-terms>a:hover,
+.wp-block-query .wp-block-post-template .taxonomy-post_tag.wp-block-post-terms>a:hover {
   color: var(--wp--preset--color--foreground);
 }
 
@@ -503,7 +506,7 @@ input[type="submit"]:focus,
   color: var(--wp--preset--color--meta);
   font-weight: var(--wp--custom--typography--font-weight--medium);
   font-size: 12px;
-    line-height: var(--wp--custom--typography--line-height--normal);
+  line-height: var(--wp--custom--typography--line-height--normal);
 }
 
 .wp-block-post-meta .wp-block-post-author .wp-block-post-author__content {
@@ -618,9 +621,9 @@ input[type="submit"]:focus,
   z-index: 2;
 }
 
-.wp-block-section:nth-child(2n-1).wp-block-recent-blog-posts .wp-block-post-template .wp-block-post-container .wp-block-post-excerpt .wp-block-post-excerpt__more-link {
+/* .wp-block-section:nth-child(2n-1).wp-block-recent-blog-posts .wp-block-post-template .wp-block-post-container .wp-block-post-excerpt .wp-block-post-excerpt__more-link {
   background-color: var(--wp--preset--color--secondary);
-}
+} */
 
 .wp-block-post-template .wp-block-post-container .wp-block-post-excerpt .wp-block-post-excerpt__more-text:hover::after {
   right: 0;
@@ -632,8 +635,8 @@ input[type="submit"]:focus,
 }
 
 .is-flex-container.wp-block-post-template .wp-block-post-title {
-    font-size: var(--wp--preset--font-size--content-heading);
-    line-height: var(--wp--custom--typography--line-height--heading-two);
+  font-size: var(--wp--preset--font-size--content-heading);
+  line-height: var(--wp--custom--typography--line-height--heading-two);
 }
 
 .wp-block-post-title a {
@@ -976,7 +979,7 @@ textarea {
 .wp-block-sidebar .wp-block-search .wp-block-search__label,
 .wp-block-sidebar.wp-block-widget-area h3,
 .wp-block-sidebar.wp-block-widget-area h2 {
-  border-bottom: 2px solid  var(--wp--preset--color--foreground);
+  border-bottom: 2px solid var(--wp--preset--color--foreground);
   padding-bottom: 14px;
 }
 
@@ -1289,17 +1292,22 @@ footer>*+* {
   padding-top: 0;
 }
 
+main>.wp-block-section:first-child:not(.wp-block-header-media-no-image):not(.wp-block-custom-header-media):not(.wp-block-featured-slider) {
+  padding-top: var(--wp--preset--spacing--100);
+
+}
+
 /* Paddding Bottom 140px needed for the sections  */
 .wp-block-section.wp-block-cta,
 .wp-block-section.wp-block-quick-contact {
   padding-top: var(--wp--custom--spacing--section-block-top);
 }
 
-.wp-block-section.wp-block-video-featured + .wp-block-section,
-.wp-block-section.wp-block-cta + .wp-block-section,
-.wp-block-section.wp-block-cta-just-video + .wp-block-section,
-.wp-block-section.wp-block-featured-slider + .wp-block-section,
-.wp-block-section.wp-block-custom-header-media + .wp-block-section {
+.wp-block-section.wp-block-video-featured+.wp-block-section,
+.wp-block-section.wp-block-cta+.wp-block-section,
+.wp-block-section.wp-block-cta-just-video+.wp-block-section,
+.wp-block-section.wp-block-featured-slider+.wp-block-section,
+.wp-block-section.wp-block-custom-header-media+.wp-block-section {
   padding-top: var(--wp--custom--spacing--section-block-top);
 }
 
@@ -1503,8 +1511,8 @@ figure figcaption {
 .wp-block-fse-pro-header-search svg,
 .wp-block-fse-pro-header-social svg,
 .wp-block-social-search-container .wp-block-social-links.is-style-logos-only .wp-block-social-link-anchor {
-  color: var(--wp--preset--color--foreground);
-  fill: var(--wp--preset--color--foreground);
+  color: var(--wp--preset--color--foreground) !important;
+  fill: var(--wp--preset--color--foreground) !important;
 }
 
 .header-with-search-cart .header-inner-wrapper {
@@ -1835,11 +1843,22 @@ body .wp-block-inner-page-title {
 /* --- WP Block Sidebar
 -------------------------------------------------------- */
 @media screen and (max-width: 782px) {
-  .wp-block-sidebar-on-left > .wp-block-column.wp-block-column-sidebar {
+  .wp-block-sidebar-on-left>.wp-block-column.wp-block-column-sidebar {
     order: 2;
   }
-  .wp-block-sidebar-on-left > .wp-block-column:not(.wp-block-column-sidebar) {
+
+  .wp-block-sidebar-on-left>.wp-block-column:not(.wp-block-column-sidebar) {
     order: 1;
+  }
+
+  .page-template-archive-product-sidebar-on-left {
+    .wp-block-sidebar-on-left>.wp-block-column.wp-block-column-sidebar {
+      order: inherit;
+    }
+
+    .wp-block-sidebar-on-left>.wp-block-column:not(.wp-block-column-sidebar) {
+      order: inherit;
+    }
   }
 }
 
@@ -1924,4 +1943,62 @@ footer .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigat
 /* Wp Block Heading Color Issue in Wp Block Cover After Wordpress 6.6.1 - For Frontend*/
 :root .wp-block-cover:not(.wp-block-header-media-no-image) :where(.wp-block-heading) {
   color: inherit;
+}
+
+
+
+@media screen and (max-width: 781px) {
+  .btn-mobile-filters {
+    .wp-block-button {
+      width: 100%;
+
+      .wp-block-button__link {
+        display: block;
+        text-transform: uppercase;
+
+        &:after {
+          content: "\279C";
+          transform: rotate(90deg);
+          display: inline-block;
+          margin-left: 5px;
+          font-size: 12px;
+          transition: 0.3s;
+        }
+      }
+    }
+  }
+
+  .mobile-filters {
+    display: none;
+  }
+
+  .btn-mobile-filters.toggled-on {
+    .wp-block-button {
+      .wp-block-button__link {
+        &:after {
+          transform: rotate(270deg);
+        }
+      }
+    }
+
+    +.mobile-filters {
+      display: block;
+    }
+  }
+
+  .wp-product-category-with-sidebar.wp-block-sidebar-on-right {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (min-width: 782px) {
+  .btn-mobile-filters {
+    display: none !important;
+  }
+
+  .btn-mobile-filters {
+    +.mobile-filters {
+      margin-top: 0;
+    }
+  }
 }

@@ -37,12 +37,15 @@
     position: relative;
 }
 
-.wp-block-products .wc-block-grid__products  {
+.wp-block-products .wc-block-grid__products,
+.wp-block-products ul.wp-block-woocommerce-product-template {
     padding-left: 40px;
     padding-right: 40px;
 }
 
-.wp-block-products .wc-block-grid__product.wc-block-grid__product > *:not(.wc-block-grid__product-onsale) {
+
+
+.wp-block-products .wc-block-grid__product.wc-block-grid__product>*:not(.wc-block-grid__product-onsale) {
     margin: 0;
     position: relative;
     text-decoration: none;
@@ -71,15 +74,15 @@
     padding-bottom: 21px;
 }
 
-  @media (min-width: 481px) and (max-width: 600px) {
-        .wc-block-grid.has-4-columns .wc-block-grid__product:nth-child(2n+1) {
-            padding-right: 0;
-        }
-
-        .wc-block-grid.has-4-columns .wc-block-grid__product:nth-child(2n) {
-            padding-left: 0;
-        }
+@media (min-width: 481px) and (max-width: 600px) {
+    .wc-block-grid.has-4-columns .wc-block-grid__product:nth-child(2n+1) {
+        padding-right: 0;
     }
+
+    .wc-block-grid.has-4-columns .wc-block-grid__product:nth-child(2n) {
+        padding-left: 0;
+    }
+}
 
 /* --- Products On Sell
 -------------------------------------------------------- */

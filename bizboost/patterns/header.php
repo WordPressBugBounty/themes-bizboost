@@ -21,7 +21,7 @@
                 <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
-            <!-- wp:navigation {"icon":"menu","layout":{"icon":"menu","type":"flex","setCascadingProperties":true,"justifyContent":"right"}} -->
+            <!-- wp:navigation {"icon":"menu","metadata":{"ignoredHookedBlocks":["woocommerce/customer-account","woocommerce/mini-cart"]},"layout":{"icon":"menu","type":"flex","setCascadingProperties":true,"justifyContent":"right"}} -->
             <!-- /wp:navigation -->
         </div>
         <!-- /wp:group -->

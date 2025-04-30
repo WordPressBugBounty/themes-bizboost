@@ -53,12 +53,16 @@
 .wc-block-featured-category .wc-block-featured-category__link {
     transform: translateY(90px);
     padding-bottom: 28px;
+    padding-left: 28px;
+    padding-right: 28px;
     transition: 0.5s;
+    opacity: 0;
 }
 
 .wc-block-featured-category:hover .wc-block-featured-category__link {
     animation: fadein 1s;
     transform: translateY(0px);
+    opacity: 1;
 }
 
 
@@ -84,6 +88,7 @@
 .wc-block-featured-category:hover::before {
     opacity: 1;
 }
+
 .wc-block-featured-category .wc-block-featured-category__background-image {
     transition: all 0.5s ease-in-out;
 }
@@ -91,4 +96,3 @@
 .wc-block-featured-category:hover .wc-block-featured-category__background-image {
     transform: scale(1.05);
 }
-
