@@ -7,7 +7,7 @@ Description: BizBoost is a free multipurpose corporate WordPress Block theme tha
 Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 5.6
-Version: 2.0.4
+Version: 2.0.6
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: bizboost
@@ -2173,6 +2173,9 @@ footer .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigat
 
   .btn-mobile-filters + .mobile-filters {
     margin-top: 0; } }
+.block-editor-block-list__block.custom-cursor {
+  display: none; }
+
 /* --- 4
 -------------------------------------------------------- */
 /* --- Block Woo-Commerce
@@ -6722,3 +6725,5 @@ a:focus svg.icon,
 .is-style-outline > .wp-block-button__link:not(.has-background):hover,
 .wp-block-button__link.is-style-outline:not(.has-background):hover {
   color: var(--wp--preset--color--background); }
+
+/*# sourceMappingURL=style.css.map */

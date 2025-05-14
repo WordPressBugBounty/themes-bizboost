@@ -27,12 +27,18 @@ When changing the theme style, it is recommended to clear the template customiza
 
 == Changelog ==
 
+= 2.0.6 (Released: May 14, 2025) =
+* Bug Fixed: Issue in version update
+
+= 2.0.5 (Released: May 14, 2025) =
+* Bug Fixed: Double scrollbar in editor due to custom cursor effect
+
 = 2.0.4 (Released: April 30, 2025) =
 * Added: CSS styles for Product and block columns for better view
 * Added: Store notice in archive product
 * Updated: Border color name
-* Updated: Header patterns to hide Mini cart and customer icon that appears automatically by woocommerce
-* Updated: Minor css
+* Updated: Header patterns to hide Mini cart and customer icon that appears automatically by WooCommerce
+* Updated: Minor CSS
 * Updated: WooCommerce filter for mobile devices
 * Updated: WooCommerce product template parts to product collection for more flexibility
 * Updated: WooCommerce view cart button
