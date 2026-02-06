@@ -4,6 +4,7 @@
  * Title: Footer
  * Slug: bizboost/footer
  * Categories: bizboost, footer
+ * Block Types: core/template-part/footer
  */
 ?>
 

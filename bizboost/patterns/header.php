@@ -4,6 +4,8 @@
  * Title: Header
  * Slug: bizboost/header
  * Categories: bizboost, header
+ * Block Types: core/template-part/header
+ *
  */
 ?>
 

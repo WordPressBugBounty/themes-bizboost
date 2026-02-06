@@ -1,7 +1,7 @@
 === BizBoost ===
 Contributors: catchthemes
 Requires at least: 5.9
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -26,6 +26,11 @@ When changing the theme style, it is recommended to clear the template customiza
 6. Navigate to Appearance -> Editor in your admin panel and customize to taste.
 
 == Changelog ==
+
+= 2.1 (Released: December 31, 2025) =
+* Bug Fixed: Page navigation css issue
+* Updated: Header and footer patterns to show in design list of header and footer parts
+* Updated: WordPress 6.9 ready
 
 = 2.0.6 (Released: May 14, 2025) =
 * Bug Fixed: Issue in version update

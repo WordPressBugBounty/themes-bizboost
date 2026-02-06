@@ -4,6 +4,7 @@
  * Title: Header Has Nav Centered
  * Slug: bizboost/header-has-nav-centered
  * Categories: bizboost, header
+ * Block Types: core/template-part/header
  */
 ?>
 

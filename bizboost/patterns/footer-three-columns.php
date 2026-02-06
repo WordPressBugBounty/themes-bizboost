@@ -4,6 +4,7 @@
  * Title: Footer Three Columns
  * Slug: bizboost/footer-three-columns
  * Categories: bizboost, footer
+ * Block Types: core/template-part/footer
  */
 ?>
 
