@@ -17,11 +17,11 @@
 
             <!-- wp:group {"align":"wide","className":"wp-block-group-heading","style":{"spacing":{"blockGap":"14px"}}} -->
             <div class="wp-block-group alignwide wp-block-group-heading"><!-- wp:heading {"textAlign":"center","level":6,"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600","lineHeight":1.8}},"textColor":"body-text","fontSize":"medium"} -->
-                <h6 class="wp-block-heading has-text-align-center has-body-text-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600;line-height:1.8;text-transform:uppercase"><?php esc_html_e('News', 'bizboost') ?></h6>
+                <h6 class="wp-block-heading has-text-align-center has-body-text-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600;line-height:1.8;text-transform:uppercase"><?php esc_html_e('News', 'bizboost'); ?></h6>
                 <!-- /wp:heading -->
 
                 <!-- wp:heading {"textAlign":"center","className":"wp-block-post-title"} -->
-                <h2 class="wp-block-heading has-text-align-center wp-block-post-title"><?php esc_html_e('Recent Blog Posts', 'bizboost') ?></h2>
+                <h2 class="wp-block-heading has-text-align-center wp-block-post-title"><?php esc_html_e('Recent Blog Posts', 'bizboost'); ?></h2>
                 <!-- /wp:heading -->
             </div>
             <!-- /wp:group -->

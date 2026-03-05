@@ -61,3 +61,18 @@
     font-size: clamp(100px, 7.5vw, 130px);
     font-weight: 600;
 }
+
+
+/* Services */
+
+.service-default-section {
+    .wp-block-column {
+        > .wp-block-columns {
+            margin-block-start: 63px !important;
+        }
+    }
+
+    .wp-block-group-heading {
+        margin-bottom: 0;
+    }
+}

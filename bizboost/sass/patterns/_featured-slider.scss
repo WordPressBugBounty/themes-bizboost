@@ -136,17 +136,6 @@
     bottom: 0;
 }
 
-/* .horizontal-outside-slider-bottom-left .swiper-pagination {
-    margin-left: 28px;
-    text-align: left;
-}
-
-.horizontal-outside-slider-bottom-right .swiper-pagination {
-    margin-right: 28px;
-    text-align: right;
-}
- */
-
 .horizontal-inside-slider-bottom-left .swiper-pagination,
 .block-editor-block-list__block.wp-block-fse-pro-slider.wp-block-fse-pro-slider .horizontal-outside-slider-bottom-left+.swiper-pagination,
 .horizontal-outside-slider-bottom-left .swiper-pagination {
@@ -419,3 +408,143 @@ main .wp-block-featured-slider>*+* {
 .wp-block-custom-header-media .wp-block-cover__inner-container.block-editor-block-list__layout {
     position: static;
 }
+
+
+
+.wp-block-featured-slider-new {
+    .wp-block-media-text .wp-block-media-text__media {
+        display: block;
+    }
+}
+
+
+/* Featured Slider New */
+
+.wp-block-featured-slider-new,
+.wp-block-featured-slider-columns-3 {
+    .swiper-pagination {
+        background: transparent;
+        .swiper-pagination-bullet {
+            &:before,
+            &:after {
+                width: 20px;
+                height: 20px;
+                left: -5px;
+                top: -5px;
+            }
+        }
+
+    }
+    .swiper-slide-active {
+        .wp-block-media-text {
+            .wp-block-media-text__media {
+                animation: fadein 0.8s ease backwards;
+                animation-delay: 0.8s;
+            }
+
+            .wp-block-media-text__content {
+                animation: fadeInRight 0.8s ease backwards;
+                animation-delay: 0.8s;
+            }
+
+        }
+    }
+}
+
+
+.swiper-fade {
+    .wp-block-fse-pro-slides:not(.swiper-slide-active) {
+        opacity: 0 !important;
+    }
+}
+
+
+
+/* Featured Slider 3 Columns */
+.wp-block-featured-slider-columns-3 {
+    .wp-block-columns {
+        gap: 20px;
+        @media (min-width: 1024px) {
+            gap: 30px;
+        }
+        .wp-block-image {
+            height: 100%;
+            img {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+       .wp-block-button__link {
+        background: var(--wp--preset--color--color-light);
+        color: var(--wp--preset--color--color-dark);
+        &:hover {
+            background: var(--wp--preset--color--foreground);
+            color: var(--wp--preset--color--background);
+        }
+       }
+       @media (min-width: 782px) {
+           .wp-block-heading {
+            font-size: clamp(28px,3vw,49px);
+           }
+       }
+
+       @media (max-width: 781px) {
+            gap: 0;
+            .wp-block-column:first-child {
+                order: 2;
+                flex: 0 0 50% !important;
+            }
+            .wp-block-column:nth-child(2) {
+                order: 1;
+                flex: 0 0 100% !important;
+            }
+            .wp-block-column:last-child {
+                order: 3;
+                flex: 0 0 50% !important;
+            }
+
+       }
+    }
+
+    .swiper-slide-active {
+        .wp-block-columns {
+            .wp-block-column:first-child {
+                .wp-block-image {
+                    animation: fadeInUp60 2s ease backwards;
+                }
+            }
+            .wp-block-column:nth-child(2) {
+                animation: zoomInUp 1.5s ease backwards;
+                P {
+                    animation: grow 3s ease;
+                }
+                .wp-block-heading {
+                    animation: grow 3s ease;
+                }
+                .wp-block-buttons {
+                    animation: fadeInUp60 3s ease backwards;
+                }
+            }
+            .wp-block-column:last-child {
+                .wp-block-image {
+                    animation: fadeInDown60 2s ease backwards;
+                }
+            }
+        }
+    }
+
+    .navigation-wrap {
+        .swiper-button {
+            opacity: 0;
+
+        }
+    }
+    &:hover {
+        .navigation-wrap {
+            .swiper-button {
+                opacity: 1;
+            }
+        }
+    }
+}
+

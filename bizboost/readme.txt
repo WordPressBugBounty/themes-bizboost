@@ -27,6 +27,19 @@ When changing the theme style, it is recommended to clear the template customiza
 
 == Changelog ==
 
+= 2.2 (Released: March 05, 2026) =
+* Added: Missing sidebar product template part
+* Added: Missing product search results template
+* Added: Missing product template home patterns template part
+* Added: Product FAQ pattern
+* Added: Secure Transactions pattern
+* Added: Shopping Features pattern
+* Bug Fixed: PHP standardization in patterns
+* Bug Fixed: Spacing issue in patterns
+* Updated: Single Product template with newly added patterns
+* Updated: All the classic/static WooCommerce product patterns, parts, templates
+* Updated: Minor CSS
+
 = 2.1 (Released: December 31, 2025) =
 * Bug Fixed: Page navigation css issue
 * Updated: Header and footer patterns to show in design list of header and footer parts
@@ -90,10 +103,10 @@ When changing the theme style, it is recommended to clear the template customiza
 
 == Copyright ==
 
-BizBoost WordPress Theme, 2023 Catchthemes.com
+BizBoost WordPress Theme, 2012-2026 Catchthemes.com
 BizBoost is distributed under the terms of the GNU GPL.
 
-BizBoost is based on Catch FSE WordPress Theme, 2012-2023 Catchthemes.com
+BizBoost is based on Catch FSE WordPress Theme, 2012-2026 Catchthemes.com
 Catch FSE is distributed under the terms of the GNU GPL.
 
 == Resources ==

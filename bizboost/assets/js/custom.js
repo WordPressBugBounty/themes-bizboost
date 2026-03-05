@@ -193,3 +193,85 @@ function teamHoverOff() {
   teamCursor.classList.remove("team__active")
 }
 
+
+// Plus minus function added on product input counter
+function threadwearsQtyChange() {
+  let qtyWrap = document.querySelectorAll('.quantity');
+  qtyWrap.forEach((wrap) => {
+    let qNav = document.createElement('div');
+    let qUp = document.createElement('div');
+    let qDown = document.createElement('div');
+    let input = wrap.querySelectorAll('.qty');
+    qUp.innerHTML = '+';
+    qDown.innerHTML = '-';
+    qNav.appendChild(qUp);
+    qNav.appendChild(qDown);
+    wrap.appendChild(qNav)
+    qUp.setAttribute('class', 'quantity-button quantity-up');
+    qDown.setAttribute('class', 'quantity-button quantity-down');
+    max = 99999;
+    let min = '';
+    input.forEach((inputItem) => {
+      min = inputItem.getAttribute('min');
+      if (qtyWrap.length > 1) {
+        // Set default value to 0
+        inputItem.value = 0;
+      }
+      qNav.setAttribute('class', 'quantity-nav');
+      let btnUp = wrap.querySelectorAll('.quantity-up');
+      btnUp.forEach((btnItem) => {
+        btnItem.addEventListener('click', function () {
+          let oldValue = parseFloat(inputItem.value);
+          if (oldValue >= max) {
+            var newVal = oldValue;
+          } else {
+            var newVal = oldValue + 1;
+          }
+          inputItem.value = newVal
+          var element = document.createEvent('HTMLEvents');
+          var event = new Event('change', {
+            bubbles: true
+          });
+          inputItem.dispatchEvent(event);
+          return event;
+        })
+      })
+      let btnDown = wrap.querySelectorAll('.quantity-down');
+      btnDown.forEach((btnItem) => {
+        btnItem.addEventListener('click', function () {
+          let oldValue = parseFloat(inputItem.value);
+          if (oldValue >= max) {
+            var newVal = oldValue;
+          } else if (oldValue <= 0) {
+            var newVal = 0;
+          } else {
+            var newVal = oldValue - 1;
+          }
+          inputItem.value = newVal
+          var element = document.createEvent('HTMLEvents');
+          var event = new Event('change', {
+            bubbles: true
+          });
+          inputItem.dispatchEvent(event);
+          return event;
+        })
+      })
+    })
+  })
+}
+threadwearsQtyChange();
+
+function threadwearsCartUpdate() {
+  let btnTrigger = document.querySelector('button[name="update_cart"]');
+  if (btnTrigger !== null) {
+    btnTrigger.addEventListener('click', function () {
+      setTimeout(function () {
+        threadwearsQtyChange();
+      }, 5000);
+      setTimeout(function () {
+        threadwearsCartUpdate();
+      }, 5000);
+    });
+  }
+}
+threadwearsCartUpdate();

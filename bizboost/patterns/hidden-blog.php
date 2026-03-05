@@ -9,4 +9,4 @@
 ?>
 
 
-<?php esc_html_e ( 'Recent Blog', 'bizboost' ) ?>
+<?php esc_html_e ( 'Recent Blog', 'bizboost' ); ?>

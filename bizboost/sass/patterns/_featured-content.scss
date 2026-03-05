@@ -10,6 +10,10 @@
     transition: all 0.5s ease-in-out;
 }
 
+.wp-block-team .wp-block-image {
+    margin-bottom: 0;
+}
+
 .wp-block-feature-content .wp-block-post-group:hover .wp-block-image img {
     opacity: 0.6;
 }
@@ -55,6 +59,12 @@
 }
 
 .wp-block-services .wp-block-group-content .wp-block-post-group:hover {
+    * {
+        color: var(--wp--preset--color--color-light);
+    }
+}
+
+.wp-block-services .wp-block-group-content .wp-block-post-group:hover {
     border-color: transparent;
     background-repeat: no-repeat;
 }
@@ -66,7 +76,11 @@
 
 .wp-block-feature-content .wp-block-button.is-style-outline .wp-block-button__link,
 .wp-block-team .wp-block-button.is-style-outline .wp-block-button__link,
-.wp-block-services .wp-block-button.is-style-outline .wp-block-button__link {
+.wp-block-services .wp-block-button.is-style-outline .wp-block-button__link,
+.service-default-section .wp-block-button.is-style-outline .wp-block-button__link,
+.wp-block-latest-news .wp-block-group-content .wp-block-button.is-style-outline .wp-block-button__link,
+.wp-block-cases-solved .wp-block-group-content .wp-block-button.is-style-outline .wp-block-button__link,
+.wp-block-when-and-where .wp-block-group-content .wp-block-button.is-style-outline .wp-block-button__link {
     border: 0;
     position: relative;
     border-radius: 0;
@@ -77,7 +91,11 @@
 
 .wp-block-feature-content .wp-block-button.is-style-outline .wp-block-button__link:after,
 .wp-block-team .wp-block-button.is-style-outline .wp-block-button__link:after,
-.wp-block-services .wp-block-button.is-style-outline .wp-block-button__link:after {
+.wp-block-services .wp-block-button.is-style-outline .wp-block-button__link:after,
+.service-default-section .wp-block-button.is-style-outline .wp-block-button__link:after,
+.wp-block-latest-news .wp-block-group-content .wp-block-button.is-style-outline .wp-block-button__link:after,
+.wp-block-cases-solved .wp-block-group-content .wp-block-button.is-style-outline .wp-block-button__link:after,
+.wp-block-when-and-where .wp-block-group-content .wp-block-button.is-style-outline .wp-block-button__link:after {
     content: "";
     border-bottom: 2px solid var(--wp--preset--color--primary);
     position: absolute;
@@ -90,7 +108,11 @@
 
 .wp-block-feature-content .wp-block-button.is-style-outline .wp-block-button__link:hover::after,
 .wp-block-team .wp-block-button.is-style-outline .wp-block-button__link:hover::after,
-.wp-block-services .wp-block-button.is-style-outline .wp-block-button__link:hover::after {
+.wp-block-services .wp-block-button.is-style-outline .wp-block-button__link:hover::after,
+.service-default-section .wp-block-button.is-style-outline .wp-block-button__link:hover::after,
+.wp-block-latest-news .wp-block-group-content .wp-block-button.is-style-outline .wp-block-button__link:hover::after,
+.wp-block-cases-solved .wp-block-group-content .wp-block-button.is-style-outline .wp-block-button__link:hover::after,
+.wp-block-when-and-where .wp-block-group-content .wp-block-button.is-style-outline .wp-block-button__link:hover::after {
     width: 30%;
 }
 
@@ -99,7 +121,13 @@
 .wp-block-team .is-style-outline>.wp-block-button__link:not(.has-background):hover,
 .wp-block-team .wp-block-button__link.is-style-outline:not(.has-background):hover,
 .wp-block-services .is-style-outline>.wp-block-button__link:not(.has-background):hover,
-.wp-block-services .wp-block-button__link.is-style-outline:not(.has-background):hover {
+.wp-block-services .wp-block-button__link.is-style-outline:not(.has-background):hover,
+.wp-block-latest-news .wp-block-group-content .is-style-outline>.wp-block-button__link:not(.has-background):hover,
+.wp-block-latest-news .wp-block-group-content .wp-block-button__link.is-style-outline:not(.has-background):hover,
+.wp-block-cases-solved .wp-block-group-content .is-style-outline>.wp-block-button__link:not(.has-background):hover,
+.wp-block-cases-solved .wp-block-group-content .wp-block-button__link.is-style-outline:not(.has-background):hover,
+.wp-block-when-and-where .wp-block-group-content .is-style-outline>.wp-block-button__link:not(.has-background):hover,
+.wp-block-when-and-where .wp-block-group-content .wp-block-button__link.is-style-outline:not(.has-background):hover {
     color: var(--wp--preset--color--primary);
     background: transparent !important;
 }

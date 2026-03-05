@@ -11,10 +11,10 @@
     <!-- wp:group {"style":{"spacing":{"blockGap":"14px"}},"align":"wide","className":"alignwide wp-block-group-heading"} -->
     <div class="wp-block-group alignwide wp-block-group-heading">
         <!-- wp:heading {"textAlign":"center","level":6,"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600","lineHeight":1.8}},"textColor":"body-text","fontSize":"medium"} -->
-        <h6 class="has-text-align-center has-body-text-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600;line-height:1.8;text-transform:uppercase"><?php esc_html_e ( 'What We Do', 'bizboost' ) ?></h6>
+        <h6 class="has-text-align-center has-body-text-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600;line-height:1.8;text-transform:uppercase"><?php esc_html_e ( 'What We Do', 'bizboost' ); ?></h6>
         <!-- /wp:heading -->
         <!-- wp:heading {"textAlign":"center"} -->
-        <h2 class="has-text-align-center"><?php esc_html_e ( 'Featured Content', 'bizboost' ) ?></h2>
+        <h2 class="has-text-align-center"><?php esc_html_e ( 'Featured Content', 'bizboost' ); ?></h2>
         <!-- /wp:heading -->
     </div>
     <!-- /wp:group -->
@@ -32,16 +32,16 @@
                     <!-- wp:group {"className":"wp-block-entry-content"} -->
                     <div class="wp-block-group wp-block-entry-content">
                         <!-- wp:heading {"fontSize":"content-heading"} -->
-                        <h2 class="has-content-heading-font-size"><?php esc_html_e ( 'Creative Lights', 'bizboost' ) ?></h2>
+                        <h2 class="has-content-heading-font-size"><?php esc_html_e ( 'Creative Lights', 'bizboost' ); ?></h2>
                         <!-- /wp:heading -->
                         <!-- wp:paragraph -->
-                        <p><?php esc_html_e ('We collaborate with smart and creative people to build awesome WordPress Full Site Editing Themes.', 'bizboost' ) ?></p>
+                        <p><?php esc_html_e ('We collaborate with smart and creative people to build awesome WordPress Full Site Editing Themes.', 'bizboost' ); ?></p>
                         <!-- /wp:paragraph -->
                         <!-- wp:buttons -->
                         <div class="wp-block-buttons">
                             <!-- wp:button {"className":"is-style-outline"} -->
                             <div class="wp-block-button is-style-outline">
-                                <a class="wp-block-button__link"><?php esc_html_e ( 'View More', 'bizboost' ) ?></a>
+                                <a class="wp-block-button__link"><?php esc_html_e ( 'View More', 'bizboost' ); ?></a>
                             </div>
                             <!-- /wp:button -->
                         </div>
@@ -62,16 +62,16 @@
                     <!-- wp:group {"className":"wp-block-entry-content"} -->
                     <div class="wp-block-group wp-block-entry-content">
                         <!-- wp:heading {"fontSize":"content-heading"} -->
-                        <h2 class="has-content-heading-font-size"><?php esc_html_e ( 'Mobile Photography', 'bizboost' ) ?></h2>
+                        <h2 class="has-content-heading-font-size"><?php esc_html_e ( 'Mobile Photography', 'bizboost' ); ?></h2>
                         <!-- /wp:heading -->
                         <!-- wp:paragraph -->
-                        <p><?php esc_html_e ( 'We collaborate with smart and creative people to build awesome WordPress Full Site Editing Themes.', 'bizboost' ) ?></p>
+                        <p><?php esc_html_e ( 'We collaborate with smart and creative people to build awesome WordPress Full Site Editing Themes.', 'bizboost' ); ?></p>
                         <!-- /wp:paragraph -->
                         <!-- wp:buttons -->
                         <div class="wp-block-buttons">
                             <!-- wp:button {"className":"is-style-outline"} -->
                             <div class="wp-block-button is-style-outline">
-                                <a class="wp-block-button__link"><?php esc_html_e ( 'View More', 'bizboost' ) ?></a>
+                                <a class="wp-block-button__link"><?php esc_html_e ( 'View More', 'bizboost' ); ?></a>
                             </div>
                             <!-- /wp:button -->
                         </div>
@@ -92,16 +92,16 @@
                     <!-- wp:group {"className":"wp-block-entry-content"} -->
                     <div class="wp-block-group wp-block-entry-content">
                         <!-- wp:heading {"fontSize":"content-heading"} -->
-                        <h2 class="has-content-heading-font-size"><?php esc_html_e ( 'Vintage Camera', 'bizboost' ) ?></h2>
+                        <h2 class="has-content-heading-font-size"><?php esc_html_e ( 'Vintage Camera', 'bizboost' ); ?></h2>
                         <!-- /wp:heading -->
                         <!-- wp:paragraph -->
-                        <p><?php esc_html_e ( 'We collaborate with smart and creative people to build awesome WordPress Full Site Editing Themes.', 'bizboost' ) ?></p>
+                        <p><?php esc_html_e ( 'We collaborate with smart and creative people to build awesome WordPress Full Site Editing Themes.', 'bizboost' ); ?></p>
                         <!-- /wp:paragraph -->
                         <!-- wp:buttons -->
                         <div class="wp-block-buttons">
                             <!-- wp:button {"className":"is-style-outline"} -->
                             <div class="wp-block-button is-style-outline">
-                                <a class="wp-block-button__link"><?php esc_html_e ( 'View More', 'bizboost' ) ?></a>
+                                <a class="wp-block-button__link"><?php esc_html_e ( 'View More', 'bizboost' ); ?></a>
                             </div>
                             <!-- /wp:button -->
                         </div>

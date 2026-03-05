@@ -13,10 +13,10 @@
     <!-- wp:group -->
     <div class="wp-block-group">
       <!-- wp:heading {"className":"wp-block-post-title","textAlign":"center"} -->
-      <h2 class="has-text-align-center wp-block-post-title"><?php esc_html_e ( '404 Nothing Found', 'bizboost' ) ?></h2>
+      <h2 class="has-text-align-center wp-block-post-title"><?php esc_html_e ( '404 Nothing Found', 'bizboost' ); ?></h2>
       <!-- /wp:heading -->
       <!-- wp:paragraph {"align":"center"} -->
-      <p class="has-text-align-center"><?php esc_html_e ( 'Oops! That page can\'t be found. Maybe try a search?', 'bizboost' ) ?></p>
+      <p class="has-text-align-center"><?php esc_html_e ( 'Oops! That page can\'t be found. Maybe try a search?', 'bizboost' ); ?></p>
       <!-- /wp:paragraph -->
       <!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search a Keyword...","widthUnit":"%","buttonText":"Search","buttonUseIcon":true,"align":"center"} /-->
     </div>

@@ -118,65 +118,24 @@
     animation: headerAnimate 600ms linear;
 }
 
-@keyframes fadeinHeaderTtext {
-  0% {
-    opacity: 0;
-  }
-  66% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes headerAnimateWrap {
-  0% {
-    -webkit-transform: translateY(-60%);
-    -moz-transform: translateY(-60%);
-    -ms-transform: translateY(-60%);
-    transform: translateY(-60%);
-  }
-
-  50% {
-    -webkit-transform: translateY(-60%);
-    -moz-transform: translateY(-60%);
-    -ms-transform: translateY(-60%);
-    transform: translateY(-60%);
-  }
-
-  100% {
-    -webkit-transform: translateY(0%);
-    -moz-transform: translateY(0%);
-    -ms-transform: translateY(0%);
-    transform: translateY(0%);
-  }
-}
-
-@keyframes headerAnimate {
-  0% {
-    -webkit-transform: translateY(120%);
-      -moz-transform: translateY(120%);
-      -ms-transform: translateY(120%);
-      transform: translateY(120%);
-  }
-
-  50% {
-    -webkit-transform: translateY(120%);
-      -moz-transform: translateY(120%);
-      -ms-transform: translateY(120%);
-      transform: translateY(120%);
-  }
-
-  100% {
-    -webkit-transform: translateY(0%);
-      -moz-transform: translateY(0%);
-      -ms-transform: translateY(0%);
-      transform: translateY(0%);
-  }
-}
-
 @media screen and ( max-width: 781px){
+  .wp-block-media-text.is-stacked-on-mobile.has-media-on-the-right .wp-block-media-text__content {
+      padding-left: 0;
+    }
+
+    .wp-block-media-text.is-stacked-on-mobile:not(.has-media-on-the-right) .wp-block-media-text__content {
+      padding-right: 0;
+    }
+}
+
+.wp-block-custom-header-media.wp-block-cover {
+  padding-top: var(--wp--custom--spacing--section-block-top);
+}
+
+
+.wp-block-music-playlist,
+.wp-block-new-songs,
+.wp-block-upcoming-events {
   .wp-block-media-text.is-stacked-on-mobile.has-media-on-the-right .wp-block-media-text__content {
       padding-left: 0;
     }

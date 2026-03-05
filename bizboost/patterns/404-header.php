@@ -22,10 +22,10 @@
                     <!-- wp:group {"className":"alignwide"} -->
                     <div class="wp-block-group alignwide">
                         <!-- wp:heading {"textAlign":"center","level":1} -->
-                        <h1 class="has-text-align-center"><?php esc_html_e ( '404 Nothing Found', 'bizboost' ) ?></h1>
+                        <h1 class="has-text-align-center"><?php esc_html_e ( '404 Nothing Found', 'bizboost' ); ?></h1>
                         <!-- /wp:heading -->
                         <!-- wp:paragraph {"textAlign":"center"} -->
-                        <p class="has-text-align-center"><?php esc_html_e ( 'Oops! That page can\'t be found', 'bizboost' ) ?></p>
+                        <p class="has-text-align-center"><?php esc_html_e ( 'Oops! That page can\'t be found', 'bizboost' ); ?></p>
                         <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->

@@ -23,10 +23,21 @@
 
 .wp-block-how-it-work .wp-block-section-content:hover *,
 .wp-block-how-it-work .wp-block-section-content:focus * {
-    color: var(--wp--preset--color--color-light);
+    color: var(--wp--preset--color--foreground);
 }
 
 .wp-block-how-it-work .wp-block-section-content:hover .wp-block-image img,
 .wp-block-how-it-work .wp-block-section-content:focus .wp-block-image img {
     filter: brightness(100);
+}
+
+
+@media screen and (max-width: 781px) {
+    .how-it-works-section {
+        .how-it-works-blocks {
+            >.wp-block-columns:nth-child(even) {
+                flex-direction: column-reverse;
+            }
+        }
+    }
 }

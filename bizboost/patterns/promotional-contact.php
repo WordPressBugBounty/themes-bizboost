@@ -18,10 +18,10 @@
                 <!-- wp:group {"className":"wp-block-group-heading"} -->
                 <div class="wp-block-group wp-block-group-heading">
                     <!-- wp:heading {"textAlign":"center","level":6,"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600","lineHeight":1.8}},"textColor":"body-text","fontSize":"medium"} -->
-        <h6 class="has-text-align-center has-body-text-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600;line-height:1.8;text-transform:uppercase"><?php esc_html_e ( 'Promotional Contact', 'bizboost' ) ?></h6>
+        <h6 class="has-text-align-center has-body-text-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600;line-height:1.8;text-transform:uppercase"><?php esc_html_e ( 'Promotional Contact', 'bizboost' ); ?></h6>
         <!-- /wp:heading -->
                     <!-- wp:heading {"textAlign":"center"} -->
-                    <h2 class="has-text-align-center"><?php esc_html_e ( 'Ready to work together?', 'bizboost' ) ?></h2>
+                    <h2 class="has-text-align-center"><?php esc_html_e ( 'Ready to work together?', 'bizboost' ); ?></h2>
                     <!-- /wp:heading -->
 
                 </div>
@@ -30,7 +30,7 @@
                 <div class="wp-block-buttons">
                     <!-- wp:button -->
                     <div class="wp-block-button">
-                        <a class="wp-block-button__link"><?php esc_html_e ( 'Contact Us', 'bizboost' ) ?></a>
+                        <a class="wp-block-button__link"><?php esc_html_e ( 'Contact Us', 'bizboost' ); ?></a>
                     </div>
                     <!-- /wp:button -->
                 </div>

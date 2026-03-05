@@ -1,13 +1,11 @@
 /* --- Products Recent
 -------------------------------------------------------- */
 .woocommerce ul.products li.product,
-.woocommerce-page ul.products li.product,
-.wc-block-grid__product.wc-block-grid__product {
+.woocommerce-page ul.products li.product {
     text-align: center;
 }
 
 .woocommerce .products .star-rating,
-.wc-block-grid__product-rating,
 .wc-block-grid__product-rating .star-rating,
 .wc-block-components-product-rating__stars,
 .wc-block-grid__product-rating .wc-block-grid__product-rating__stars {
@@ -84,10 +82,22 @@
     }
 }
 
-/* --- Products On Sell
--------------------------------------------------------- */
-
-
-
-/* --- Products On Top Rated
--------------------------------------------------------- */
+/* New Update */
+.wp-block-section.wp-block-products {
+    .wp-block-woocommerce-product-collection {
+        .wc-block-product-template {
+            .wc-block-product {
+                > .wp-block-template-part {
+                    height: 100%;
+                     > .product-wrap {
+                        height: 100%;
+                     }
+                }
+                .wp-block-button.wc-block-components-product-button,
+                .wp-block-button.wc-block-grid__product-add-to-cart {
+                    padding: 0;
+                }
+            }
+        }
+    }
+}

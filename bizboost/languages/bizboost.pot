@@ -1,11 +1,11 @@
-# <!=Copyright (C) 2023 Catch Themes
+# <!=Copyright (C) 2026 Catch Themes
 # This file is distributed under the GNU General Public License v2 or later.=!>
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: BizBoost\n"
 "Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
-"POT-Creation-Date: 2025-12-31 14:46+0545\n"
+"POT-Creation-Date: 2026-03-05 14:23+0545\n"
 "PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Catch Themes <info@catchthemes.com>\n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
@@ -252,7 +252,28 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: patterns/products-recent.php:14
+#: patterns/product-faq.php:12
+msgid "Got Questions ?"
+msgstr ""
+
+#: patterns/product-faq.php:18
+msgid "Shipping & Returns Information"
+msgstr ""
+
+#: patterns/product-faq.php:22
+msgid "Shop with confidence, knowing your order is safe and hassle-free."
+msgstr ""
+
+#: patterns/product-faq.php:29
+msgid "Whats Included"
+msgstr ""
+
+#: patterns/product-faq.php:33
+msgid ""
+"Includes all essential components for immediate use, right out of the box."
+msgstr ""
+
+#: patterns/products-recent.php:15
 msgid "Recent Products"
 msgstr ""
 
@@ -274,6 +295,22 @@ msgstr ""
 
 #: patterns/recent-blog-posts.php:24
 msgid "Recent Blog Posts"
+msgstr ""
+
+#: patterns/secure-transactions.php:13
+msgid "Trusted & Secure Payments"
+msgstr ""
+
+#: patterns/shopping-features.php:18
+msgid "Hassle-free returns and exchanges within a month"
+msgstr ""
+
+#: patterns/shopping-features.php:29
+msgid "Free shipping on all orders over $100"
+msgstr ""
+
+#: patterns/shopping-features.php:40
+msgid " 100% Quality Guaranteed"
 msgstr ""
 
 #: patterns/sidebar-products.php:14
