@@ -7,7 +7,7 @@ Description: BizBoost is a free multipurpose corporate WordPress Block theme tha
 Requires at least: 5.9
 Tested up to: 6.9
 Requires PHP: 5.6
-Version: 2.2
+Version: 2.2.1
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: bizboost
@@ -4382,6 +4382,9 @@ cart-collaterals .cart_totals .shop_table td {
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
   .wp-block-group.wp-faq-main {
     flex-direction: column; } }
+@media screen and (max-width: 781px) {
+  .wp-block-woocommerce-add-to-cart-form form.cart.grouped_form {
+    display: inline; } }
 @media screen and (max-width: 600px) {
   .wp-block-group.wp-faq-main {
     flex-direction: column; } }
@@ -4425,13 +4428,34 @@ cart-collaterals .cart_totals .shop_table td {
 .woocommerce div.product form.cart div.quantity {
   margin-right: 10px; }
 
+.wp-block-woocommerce-add-to-cart-form .variations_button,
+.wp-block-woocommerce-add-to-cart-form form.cart {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1rem; }
+
+/* Shopping Feature Images */
+.wp-shopping-features .wp-block-image img {
+  mix-blend-mode: difference; }
+
+/* Product Faq Section */
+.wp-product-faq-section .advanced-accordion-wrap {
+  background-color: var(--wp--preset--color--secondary) !important; }
+  .wp-product-faq-section .advanced-accordion-wrap .wp-block-fse-pro-accordion-item:not(:last-child) {
+    margin-bottom: 1px; }
+  .wp-product-faq-section .advanced-accordion-wrap .wp-block-fse-pro-accordion-item .fse-pro-advanced-accordion-controls {
+    border: none; }
+    .wp-product-faq-section .advanced-accordion-wrap .wp-block-fse-pro-accordion-item .fse-pro-advanced-accordion-controls:is(:hover, :focus) .fse-pro-advanced-accordion-title-wrap, .wp-product-faq-section .advanced-accordion-wrap .wp-block-fse-pro-accordion-item .fse-pro-advanced-accordion-controls.active-controls .fse-pro-advanced-accordion-title-wrap {
+      background-color: var(--wp--preset--color--tertiary) !important;
+      border-color: transparent !important; }
+    .wp-product-faq-section .advanced-accordion-wrap .wp-block-fse-pro-accordion-item .fse-pro-advanced-accordion-controls .fse-pro-advanced-accordion-title-wrap .fse-pro-advanced-accordion-title {
+      color: var(--wp--preset--color--body-text) !important; }
+    .wp-product-faq-section .advanced-accordion-wrap .wp-block-fse-pro-accordion-item .fse-pro-advanced-accordion-controls.active-controls {
+      border: none; }
+    .wp-product-faq-section .advanced-accordion-wrap .wp-block-fse-pro-accordion-item .fse-pro-advanced-accordion-controls .inner-wrap .inner-content {
+      padding-top: 15px; }
+
 /* Ends New Update : Single Product */
-.fse-pro-advanced-accordion-controls.active-controls .fse-pro-advanced-accordion-title-wrap .fse-pro-advanced-accordion-title {
-  color: var(--wp--preset--color--foreground); }
-
-.cart.grouped_form .single_add_to_cart_button {
-  margin-top: 21px !important; }
-
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/

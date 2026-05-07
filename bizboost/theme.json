@@ -258,7 +258,8 @@
 				"section-pricing-content": "clamp(21px, 5.5vw, 42px)",
 				"main-block-gap": "clamp(42px, 4.5vw, 70px)",
 				"testimonial-inner-gap": "clamp(35px, 3.5vw, 42px)",
-				"group-heading-bottom-gap": "clamp(35px, 3.5vw, 56px)"
+				"group-heading-bottom-gap": "clamp(35px, 3.5vw, 56px)",
+				"banner-after-block-gap": "clamp(42px, 6.5vw, 100px)"
 			},
 			"typography": {
 				"font-size": {

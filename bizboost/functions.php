@@ -52,9 +52,9 @@ if ( ! function_exists( 'bizboost_styles' ) ) :
 
 		wp_enqueue_script(
             'bizboost-script',
-            get_theme_file_uri( 'assets/js/custom.js' ),
+            get_theme_file_uri( 'assets/js/custom.min.js' ),
             array(),
-            filemtime( get_theme_file_path( 'assets/js/custom.js' ) ),
+            filemtime( get_theme_file_path( 'assets/js/custom.min.js' ) ),
             true
         );
 	}

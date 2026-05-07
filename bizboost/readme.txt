@@ -27,6 +27,12 @@ When changing the theme style, it is recommended to clear the template customiza
 
 == Changelog ==
 
+= 2.2.1 (Released: May 07, 2026) =
+* Bug Fixed: Add to cart button issue for group product
+* Updated: Product details in Single Product template
+* Updated: Theme json file
+* Updated: Minify custom js
+
 = 2.2 (Released: March 05, 2026) =
 * Added: Missing sidebar product template part
 * Added: Missing product search results template
