@@ -130,7 +130,7 @@
 
 .wp-block-clients-testimonial .wp-block-testimonial .wp-group-content:before {
     border-color: rgba(255, 255, 255, 0);
-    border-top-color: var(--wp--preset--color--border-color);
+    border-top-color: var(--wp--preset--color--border-default-color);
     left: 17px;
     margin-left: -18px;
     border-width: 35px;
@@ -189,7 +189,7 @@
 .wp-block-clients-testimonial .wp-block-testimonial .wp-group-content,
 .wp-product-review-section .wc-block-review-list.wc-block-components-review-list li {
     padding: var(--wp--custom--spacing--testimonial-inner-gap);
-    border: 1px solid var(--wp--preset--color--border-color);
+    border: 1px solid var(--wp--preset--color--border-default-color);
 }
 
 .wp-block-clients-testimonial .wp-block-testimonial .wp-group-content{

@@ -1,7 +1,7 @@
 /* --- Block Event
 -------------------------------------------------------- */
 .wp-block-events .event-row-head {
-    border-bottom: 2px solid var(--wp--preset--color--border-color);
+    border-bottom: 2px solid var(--wp--preset--color--border-default-color);
     padding-bottom: 14px;
 }
 
@@ -15,7 +15,7 @@
 
 .wp-block-events .event-row {
     align-items: flex-start;
-    border-bottom: 1px solid var(--wp--preset--color--border-color);
+    border-bottom: 1px solid var(--wp--preset--color--border-default-color);
     padding: var(--wp--custom--spacing--wp-comment-vertical) 0;
     margin-top: 0;
 }
@@ -23,12 +23,12 @@
 .wp-block-events {
     .event-details {
         a {
-            border: 1px solid var(--wp--preset--color--border-color);
+            border: 1px solid var(--wp--preset--color--border-default-color);
             border-radius: 50%;
             padding: 14px;
             overflow: hidden;
             &:hover {
-                background-color: var(--wp--preset--color--border-color);
+                background-color: var(--wp--preset--color--border-default-color);
             }
         }
     }

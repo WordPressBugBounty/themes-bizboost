@@ -1,7 +1,7 @@
 === BizBoost ===
 Contributors: catchthemes
 Requires at least: 5.9
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -26,6 +26,13 @@ When changing the theme style, it is recommended to clear the template customiza
 6. Navigate to Appearance -> Editor in your admin panel and customize to taste.
 
 == Changelog ==
+
+= 2.3 (Released: June 22, 2026) =
+* Bug Fixed: Welcome panel background color issue in theme admin page
+* Bug Fixed: Responsive navigation menu background color issues on dark themes
+* Big Fixed: Mobile menu spacing and layout issues on small screens
+* Updated: Renamed border-color slug to border-default-color to avoid conflict with WordPress core styles naming
+* Updated: WordPress 7.0 ready
 
 = 2.2.1 (Released: May 07, 2026) =
 * Bug Fixed: Add to cart button issue for group product

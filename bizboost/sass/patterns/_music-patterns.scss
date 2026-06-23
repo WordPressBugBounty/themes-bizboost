@@ -112,7 +112,7 @@
             list-style: none;
             padding-bottom: 21px;
             margin-bottom: 21px;
-            border-bottom: 1px solid var(--wp--preset--color--border-color);
+            border-bottom: 1px solid var(--wp--preset--color--border-default-color);
 
             a {
                 text-decoration: none;
@@ -162,7 +162,7 @@
     .fse-slider-wrapper {
         .wp-block-fse-pro-slider {
             .wp-block-embed {
-                background-color: var(--wp--preset--color--border-color);
+                background-color: var(--wp--preset--color--border-default-color);
                 border-radius: 16px;
                 overflow: hidden;
                 iframe {
@@ -172,7 +172,7 @@
             }
         }
         .swiper-button {
-            background: var(--wp--preset--color--border-color);
+            background: var(--wp--preset--color--border-default-color);
             color: var(--wp--preset--color--foreground);
             &:hover {
                 background: var(--wp--preset--color--foreground);

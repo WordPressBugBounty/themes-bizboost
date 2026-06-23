@@ -187,9 +187,9 @@
 					"name": "Dark Grey"
 				},
 				{
-					"slug": "border-color",
+					"slug": "border-default-color",
 					"color": "#323438",
-					"name": "Border Color"
+					"name": "Border Default Color"
 				},
 				{
 					"slug": "color-light",

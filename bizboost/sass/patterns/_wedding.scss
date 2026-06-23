@@ -12,7 +12,7 @@
         &:before,
         &:after {
             content: "";
-            background-color: var(--wp--preset--color--border-color);
+            background-color: var(--wp--preset--color--border-default-color);
             position: absolute;
             top: 50%;
             width: 55px;
